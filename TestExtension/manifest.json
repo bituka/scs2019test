@@ -1,0 +1,97 @@
+{
+    "name": "TestExtension",
+    "fantasyName": "TestExtension",
+    "vendor": "TestVendor",
+    "type": "extension",
+    "target": "SCA,SCS",
+    "version": "0.0.0",
+    "description": "My Test Extension",
+    "assets": {
+        "img": {
+            "files": []
+        },
+        "fonts": {
+            "files": []
+        },
+        "services": {
+            "files": [
+                "services/WithRouterModule.Service.ss"
+            ]
+        }
+    },
+    "configuration": {
+        "files": []
+    },
+    "templates": {
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/WithRouterModule/Templates/testvendor_testextension_withroutermodule.tpl",
+                    "Modules/WithRouterModule/Templates/my_new_module.tpl"
+                ]
+            },
+            "myaccount": {
+                "files": [
+                    "Modules/WithRouterModule/Templates/testvendor_testextension_withroutermodule.tpl",
+                    "Modules/WithRouterModule/Templates/my_new_module.tpl"
+                ]
+            },
+            "checkout": {
+                "files": [
+                    "Modules/WithRouterModule/Templates/testvendor_testextension_withroutermodule.tpl",
+                    "Modules/WithRouterModule/Templates/my_new_module.tpl"
+                ]
+            }
+        }
+    },
+    "sass": {
+        "entry_points": {
+            "shopping": "Modules/WithRouterModule/Sass/_testextension-withroutermodule.scss",
+            "myaccount": "Modules/WithRouterModule/Sass/_testextension-withroutermodule.scss",
+            "checkout": "Modules/WithRouterModule/Sass/_testextension-withroutermodule.scss"
+        },
+        "files": [
+            "Modules/WithRouterModule/Sass/_testextension-withroutermodule.scss"
+        ]
+    },
+    "javascript": {
+        "entry_points": {
+            "shopping": "Modules/WithRouterModule/JavaScript/TestVendor.TestExtension.WithRouterModule.js",
+            "myaccount": "Modules/WithRouterModule/JavaScript/TestVendor.TestExtension.WithRouterModule.js",
+            "checkout": "Modules/WithRouterModule/JavaScript/TestVendor.TestExtension.WithRouterModule.js"
+        },
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/WithRouterModule/JavaScript/TestVendor.TestExtension.WithRouterModule.js",
+                    "Modules/WithRouterModule/JavaScript/WithRouterModule.View.js",
+                    "Modules/WithRouterModule/JavaScript/WithRouterModule.Router.js",
+                    "Modules/WithRouterModule/JavaScript/WithRouterModule.Viewcopy.js"
+                ]
+            },
+            "myaccount": {
+                "files": [
+                    "Modules/WithRouterModule/JavaScript/TestVendor.TestExtension.WithRouterModule.js",
+                    "Modules/WithRouterModule/JavaScript/WithRouterModule.View.js",
+                    "Modules/WithRouterModule/JavaScript/WithRouterModule.Router.js",
+                    "Modules/WithRouterModule/JavaScript/WithRouterModule.Viewcopy.js"
+                ]
+            },
+            "checkout": {
+                "files": [
+                    "Modules/WithRouterModule/JavaScript/TestVendor.TestExtension.WithRouterModule.js",
+                    "Modules/WithRouterModule/JavaScript/WithRouterModule.View.js",
+                    "Modules/WithRouterModule/JavaScript/WithRouterModule.Router.js",
+                    "Modules/WithRouterModule/JavaScript/WithRouterModule.Viewcopy.js"
+                ]
+            }
+        }
+    },
+    "ssp-libraries": {
+        "entry_point": "Modules/WithRouterModule/SuiteScript/TestVendor.TestExtension.WithRouterModule.js",
+        "files": [
+            "Modules/WithRouterModule/SuiteScript/TestVendor.TestExtension.WithRouterModule.js",
+            "Modules/WithRouterModule/SuiteScript/WithRouterModule.ServiceController.js"
+        ]
+    }
+}

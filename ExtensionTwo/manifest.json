@@ -1,0 +1,90 @@
+{
+    "name": "ExtensionTwo",
+    "fantasyName": "Extension Two",
+    "vendor": "VendorTwo",
+    "version": "0.0.0",
+    "type": "extension",
+    "target": "SCS,SCA",
+    "description": "My cool extension does magic!",
+    "skins": [],
+    "assets": {
+        "img": {
+            "files": []
+        },
+        "fonts": {
+            "files": []
+        },
+        "services": {
+            "files": [
+                "services/ModuleTwo.Service.ss"
+            ]
+        }
+    },
+    "configuration": {
+        "files": []
+    },
+    "sass": {
+        "entry_points": {
+            "shopping": "Modules/ModuleTwo/Sass/_extensiontwo-moduletwo.scss",
+            "myaccount": "Modules/ModuleTwo/Sass/_extensiontwo-moduletwo.scss",
+            "checkout": "Modules/ModuleTwo/Sass/_extensiontwo-moduletwo.scss"
+        },
+        "files": [
+            "Modules/ModuleTwo/Sass/_extensiontwo-moduletwo.scss"
+        ]
+    },
+    "templates": {
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/ModuleTwo/Templates/vendortwo_extensiontwo_moduletwo.tpl"
+                ]
+            },
+            "myaccount": {
+                "files": [
+                    "Modules/ModuleTwo/Templates/vendortwo_extensiontwo_moduletwo.tpl"
+                ]
+            },
+            "checkout": {
+                "files": [
+                    "Modules/ModuleTwo/Templates/vendortwo_extensiontwo_moduletwo.tpl"
+                ]
+            }
+        }
+    },
+    "javascript": {
+        "entry_points": {
+            "shopping": "Modules/ModuleTwo/JavaScript/VendorTwo.ExtensionTwo.ModuleTwo.js",
+            "myaccount": "Modules/ModuleTwo/JavaScript/VendorTwo.ExtensionTwo.ModuleTwo.js",
+            "checkout": "Modules/ModuleTwo/JavaScript/VendorTwo.ExtensionTwo.ModuleTwo.js"
+        },
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/ModuleTwo/JavaScript/VendorTwo.ExtensionTwo.ModuleTwo.js",
+                    "Modules/ModuleTwo/JavaScript/ModuleTwo.View.js"
+                ]
+            },
+            "myaccount": {
+                "files": [
+                    "Modules/ModuleTwo/JavaScript/VendorTwo.ExtensionTwo.ModuleTwo.js",
+                    "Modules/ModuleTwo/JavaScript/ModuleTwo.View.js"
+                ]
+            },
+            "checkout": {
+                "files": [
+                    "Modules/ModuleTwo/JavaScript/VendorTwo.ExtensionTwo.ModuleTwo.js",
+                    "Modules/ModuleTwo/JavaScript/ModuleTwo.View.js"
+                ]
+            }
+        }
+    },
+    "ssp-libraries": {
+        "entry_point": "Modules/ModuleTwo/SuiteScript/VendorTwo.ExtensionTwo.ModuleTwo.js",
+        "files": [
+            "Modules/ModuleTwo/SuiteScript/VendorTwo.ExtensionTwo.ModuleTwo.js",
+            "Modules/ModuleTwo/SuiteScript/ModuleTwo.ServiceController.js"
+        ]
+    },
+    "local_folder": "Workspace\\ExtensionTwo"
+}
